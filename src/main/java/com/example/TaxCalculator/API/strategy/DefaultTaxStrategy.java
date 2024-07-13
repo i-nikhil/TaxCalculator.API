@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DefaultTaxStrategy implements TaxStrategy{
+
     @Override
     public double calculateTax(double income) {
         double tax = 0.0;
