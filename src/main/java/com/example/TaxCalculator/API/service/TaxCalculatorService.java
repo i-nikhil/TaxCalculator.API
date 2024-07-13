@@ -15,8 +15,7 @@ public class TaxCalculatorService {
         this.factory = factory;
     }
 
-    public double calculateTax(double income)
-    {
+    public double calculateTax(double income) {
         TaxStrategy strategy = factory.getStrategy("Default");
         return strategy.calculateTax(income);
     }

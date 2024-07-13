@@ -3,7 +3,7 @@ package com.example.TaxCalculator.API.strategy;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DefaultTaxStrategy implements TaxStrategy{
+public class DefaultTaxStrategy implements TaxStrategy {
 
     @Override
     public double calculateTax(double income) {

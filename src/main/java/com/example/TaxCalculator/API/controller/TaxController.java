@@ -17,9 +17,8 @@ public class TaxController {
     }
 
     @GetMapping("/tax")
-    public double calculateTax(@RequestParam double income)
-    {
-        if(income <= 0)
+    public double calculateTax(@RequestParam double income) {
+        if (income <= 0)
             return 0;
         return service.calculateTax(income);
     }

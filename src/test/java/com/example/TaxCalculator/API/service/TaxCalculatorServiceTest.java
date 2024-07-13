@@ -28,8 +28,7 @@ public class TaxCalculatorServiceTest {
     }
 
     @Test
-    public void calculateTax_WhenIncomePassed_ReturnsTax()
-    {
+    public void calculateTax_WhenIncomePassed_ReturnsTax() {
         // Arrange
         double income = 2500000;
         double expectedTax = 583250;
