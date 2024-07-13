@@ -12,13 +12,13 @@ The tax slabs used for calculation are as follows:
 
 The output will show the total tax to be paid.
 
-# Tech Stack
+## Tech Stack
 
-    Framework: Spring Boot
+    Framework: Spring Boot 3.3.1
     Language: Java 17
     Testing Frameworks: JUnit, Mockito
 
-Setup Instructions
+## Setup Instructions
 
 To run the application locally:
 
